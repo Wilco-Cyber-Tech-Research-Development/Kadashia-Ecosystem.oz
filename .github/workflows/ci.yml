@@ -1,0 +1,35 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display repository information
+        run: |
+          echo "Repository: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"
+          echo "GitHub Actions is successfully configured."
+
+      # Placeholder for future steps (e.g., install dependencies, run tests, lint)
+      # - name: Set up language runtime
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20'
+
+      # - name: Install dependencies
+      #   run: npm ci
+
+      # - name: Run tests
+      #   run: npm test
