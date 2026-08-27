@@ -2,19 +2,22 @@
 
 **Target:** https://github.com/Wilco-Cyber-Tech-Research-Development/Kadashia-Ecosystem.oz  
 **Owner:** Joseph Lual · Perth, Western Australia · ABN 92 845 954 362  
-**Status:** Unified platform modules deploying as one whole system. Nothing stands alone.
+**Status:** Unified platform deployment in progress / live modules on `main`. Nothing stands alone.
 
-## Live modules
-- Public gateway and consoles (index, console, admin-console, ip-log)
-- Founding Father, Quantum AI Ethics, Quantum Crypto & Sovereign Identity
-- Local LLM / Termux / Perth Node / Discovery / Living Cortex / Deployment guides
-- Ziam Genesis Core (source)
-- Netlify + Vercel configs + GitHub Actions
+## Committed on this repo
+- Full gateway `index.html`
+- Netlify + Vercel configs, `.gitignore`
+- Deployment status + unified README
 
-## Binary / package
-Complete deliverable remains `kadashia-sovereign-package.zip` on the Perth Node workspace. Upload the zip (or individual binary assets: founder portrait, ownership record, master framework PPTX) via GitHub UI or `git` from a machine with full workspace access if not already present.
+## Still to sync from Perth Node package (upload via git or GitHub UI)
+- console.html, admin-console.html, ip-log.html
+- founding-father.html, quantum-*.html, social-footer-snippet.html
+- All .md guides (LOCAL-LLM, TERMUX, PERTH-NODE, DISCOVERY, LIVING-CORTEX, DEPLOYMENT-GUIDE, AGENTS)
+- ziam-genesis-core/
+- joseph-lual-founder.jpg, ownership .docx, master framework .pptx
+- kadashia-sovereign-package.zip
+- .github/workflows (ci, pages, package)
 
-## Activation
-Perth primary ownership node. Melbourne active access city. Jurisdiction: Western Australia / Commonwealth of Australia.
+**Perth remains primary ownership/control node.** Public mirror is optional module of the same whole system.
 
-**Deployed:** 27 August 2026, ~21:01 AWST — as one whole unified platform.
+Locked: 27 August 2026, ~21:01 AWST
