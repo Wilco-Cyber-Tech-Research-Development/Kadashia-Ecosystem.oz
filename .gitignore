@@ -1,0 +1,12 @@
+# Kadashia Sovereign Ecosystem
+.env
+.env.*
+*.pyc
+__pycache__/
+.DS_Store
+node_modules/
+.vercel
+.netlify
+*.log
+.grok/
+.previewdocs/
