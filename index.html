@@ -10,8 +10,162 @@
     <meta name="geo.region" content="AU-WA">
     <meta name="geo.placename" content="Perth">
     <meta name="keywords" content="Kadashia AI, Sovereign Ecosystem, Industrial Intelligence, Perth, Western Australia, Joseph Lual, Local LLM, Design Research Film Deploy">
+    <style>
+        :root {
+            --bg: #050505;
+            --cyan: #00e5ff;
+            --text: #e0e0e0;
+            --muted: #777;
+            --panel: #0d0d0d;
+            --border: #1a1a1a;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: clamp(2.6rem, 8vw, 4.2rem);
+            letter-spacing: 0.3em;
+            color: var(--cyan);
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+            text-transform: uppercase;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            letter-spacing: 0.15em;
+            color: var(--muted);
+            margin-bottom: 0.8rem;
+        }
+        .sub {
+            font-size: 1rem;
+            color: #bbb;
+            margin-bottom: 1.2rem;
+            line-height: 1.5;
+        }
+        .ecosystem-note {
+            font-size: 0.85rem;
+            color: var(--muted);
+            max-width: 480px;
+            margin-bottom: 2.4rem;
+            line-height: 1.5;
+        }
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            border: 1px solid var(--cyan);
+            padding: 0.95rem 1.8rem;
+            color: var(--cyan);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+        .btn:hover {
+            background: var(--cyan);
+            color: #000;
+            box-shadow: 0 0 22px rgba(0, 229, 255, 0.4);
+        }
+        .btn.secondary {
+            border-color: #444;
+            color: #aaa;
+        }
+        .btn.secondary:hover {
+            border-color: #888;
+            color: #fff;
+            background: #1a1a1a;
+            box-shadow: none;
+        }
+        .modules {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+            max-width: 560px;
+            margin-bottom: 2rem;
+        }
+        .module-pill {
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            color: #555;
+            border: 1px solid #222;
+            padding: 0.35rem 0.7rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+        footer {
+            position: fixed;
+            bottom: 1.4rem;
+            font-size: 0.72rem;
+            color: #555;
+            letter-spacing: 0.04em;
+        }
+    </style>
 </head>
 <body>
-<p>Temporary placeholder — full content push in progress. See console for complete modules.</p>
+    <h1>KADASHIA AI</h1>
+    <p class="tagline">Design. Research. Film. Deploy.</p>
+    <p class="sub">
+        Sovereign Industrial Intelligence Platform<br>
+        Owned & controlled by Joseph Lual<br>
+        Perth, Western Australia
+    </p>
+    <p class="ecosystem-note">
+        One unified ecosystem. Every interface, log and intelligence path is a module of the same system.
+    </p>
+    <div class="buttons">
+        <a href="console.html" class="btn">OPEN COMMAND CONSOLE</a>
+        <a href="admin-console.html" class="btn">FOUNDER ADMIN CONSOLE</a>
+        <a href="ip-log.html" class="btn secondary">PRIVATE IP LOG</a>
+        <a href="founding-father.html" class="btn secondary">FOUNDING FATHER</a>
+        <a href="quantum-ai-ethics.html" class="btn secondary">QUANTUM AI ETHICS</a>
+        <a href="quantum-crypto-sovereign-identity.html" class="btn secondary">QUANTUM CRYPTO & IDENTITY</a>
+        <a href="DEPLOYMENT-GUIDE.md" class="btn secondary">DEPLOYMENT GUIDE</a>
+        <a href="mailto:ziamziamtechs@gmail.com" class="btn secondary">CONTACT</a>
+    </div>
+    <div class="modules">
+        <span class="module-pill">Gateway</span>
+        <span class="module-pill">Command Console</span>
+        <span class="module-pill">IP Log</span>
+        <span class="module-pill">Local LLM</span>
+        <span class="module-pill">Mobile Node</span>
+    </div>
+    <footer style="text-align:center; margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid #1a1a1a; font-size:0.82rem; color:#888; line-height:1.6; max-width:640px;">
+        <p style="color:#00e5ff; font-size:0.9rem; margin-bottom:0.7rem;">
+            <strong>Digital Sovereignty Philosophy</strong><br>
+            Genuine digital sovereignty is the right of peoples and institutions to exercise autonomous control over data, computation and algorithmic destiny. Technology must remain a torchbearer for humanity — never its master.
+        </p>
+        <p style="margin:0.75rem 0 0.45rem; color:#bbb;">
+            Kadashia Sovereign Ecosystem · One unified platform. Nothing stands alone.
+        </p>
+        <p style="margin-bottom:0.7rem;">
+            <a href="#" title="@OscaeGTX (preferred)" style="color:#00e5ff; text-decoration:none; margin:0 0.45rem;">X</a>
+            <a href="https://www.facebook.com/people/Ziam-Ziam-Centre-for-Quantum-Research-and-AI-development/61593533379986/" style="color:#00e5ff; text-decoration:none; margin:0 0.45rem;" target="_blank" rel="noopener">Facebook</a>
+            <a href="#" title="OscaeGTX / Kadashia Sovereign Ecosystem" style="color:#00e5ff; text-decoration:none; margin:0 0.45rem;">YouTube</a>
+            <a href="#" title="Joseph Lual" style="color:#00e5ff; text-decoration:none; margin:0 0.45rem;">LinkedIn</a>
+            <a href="https://github.com/OscaeGTX" style="color:#00e5ff; text-decoration:none; margin:0 0.45rem;" target="_blank" rel="noopener">GitHub</a>
+        </p>
+        <p style="color:#777; font-size:0.76rem;">
+            Joseph Lual · Perth, Western Australia · ABN 92 845 954 362<br>
+            © 2024–2026 · Prioritising Humanity’s Social and Stoic Values
+        </p>
+    </footer>
 </body>
 </html>
