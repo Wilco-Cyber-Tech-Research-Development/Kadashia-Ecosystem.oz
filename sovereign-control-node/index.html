@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sovereign Control Node – Project Landing Page</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a2332;
+      --border: #2d3a4f;
+      --text: #e7ecf3;
+      --muted: #8b9bb4;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --success: #22c55e;
+      --warning: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+    header p { color: var(--muted); font-size: 0.95rem; }
+    .org { margin-top: 0.75rem; font-size: 0.85rem; color: var(--muted); }
+    .grid { display: grid; gap: 0.85rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.15rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      transition: border-color 0.15s ease;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card-info h2 { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.2rem; }
+    .card-info .meta { font-size: 0.8rem; color: var(--muted); }
+    .status {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .status.live { background: rgba(34, 197, 94, 0.15); color: var(--success); }
+    .status.private { background: rgba(245, 158, 11, 0.15); color: var(--warning); }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.85rem;
+      margin-left: 0.75rem;
+    }
+    .links a:hover { color: var(--accent-hover); text-decoration: underline; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    footer strong { color: var(--text); }
+    .note {
+      margin-top: 1.5rem;
+      padding: 0.9rem 1rem;
+      background: rgba(59, 130, 246, 0.08);
+      border: 1px solid rgba(59, 130, 246, 0.25);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sovereign Control Node</h1>
+      <p>Unified landing page for all active DevOps projects under our blueprints</p>
+      <div class="org">
+        Andoria Pacific Developers Lab · Ziam-Ziam Cyber Tech Perth WA<br>
+        under the Cyber Kingdom of Digital Sovereignty
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-info">
+          <h2>Kadashia-Ecosystem.oz</h2>
+          <div class="meta">GitHub · Core ecosystem project</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/Kadashia-Ecosystem.oz" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>GenAI</h2>
+          <div class="meta">GitHub · Generative AI work</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/GenAI" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>Quantum_Deploy</h2>
+          <div class="meta">GitHub · Deployment & quantum-era readiness</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/Quantum_Deploy" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>CoD-ONE-HYPER</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/CoD-ONE-HYPER" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>Sentinel-Oscar</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/Sentinel-Oscar" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>GEENERAL-BORG</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/GEENERAL-BORG" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>RT-VAD-framework-</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/RT-VAD-framework-" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>python-genai</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/python-genai" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>unifax</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/unifax" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>Demox-</h2>
+          <div class="meta">GitHub</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status live">Active</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/Demox-" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>Falcon100-Dexter</h2>
+          <div class="meta">GitHub · Private</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status private">Private</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/Falcon100-Dexter" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>Falcon100-Dexter.-</h2>
+          <div class="meta">GitHub · Private</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status private">Private</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/Falcon100-Dexter.-" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>demo-repository</h2>
+          <div class="meta">GitHub · Private</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status private">Private</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/demo-repository" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-info">
+          <h2>AGENTS.-md</h2>
+          <div class="meta">GitHub · Private · Agent documentation</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="status private">Private</span>
+          <div class="links"><a href="https://github.com/Wilco-Cyber-Tech-Research-Development/AGENTS.-md" target="_blank" rel="noopener">Repo</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note">
+      <strong>Vercel / AWS / Google deployments</strong> will be added here once you complete the assets assessment and provide the project details. This page is intentionally simple so it can grow cleanly.
+    </div>
+
+    <footer>
+      <strong>Research Organisations of Record</strong><br>
+      Andoria Pacific Developers Lab<br>
+      Ziam-Ziam Cyber Tech Perth WA<br>
+      1/26 Raleigh Road, Bayswater, 6063 Perth, Western Australia<br><br>
+      Under the collective adjudication of the Cyber Kingdom of Digital Sovereignty
+      for humanity’s advancement and progress through technical architecture
+      and the wisdom of artificial intelligence.<br><br>
+      Primary Entity of Ownership and all recognised Shareholders exercise legal title
+      only when the signatures of every entitled principal entity (and their principals)
+      are present and in full agreement.<br><br>
+      Copyright enforces fairness. Digital Sovereignty protects human ownership
+      and progressive, goodwill-oriented AI architecture.<br><br>
+      <strong>Authority & Serving Act</strong> — These identity statements are issued under the
+      Digital Sovereignty Constitution and the Policy on Identity, Ownership & Continuity of Legal Agreements.
+      They serve the lawful purpose of continuous, fair, and fully signed recognition of title.<br><br>
+      <strong>ALL RIGHTS RESERVED.</strong> Not released under any open 2.0 or permissive licence.
+    </footer>
+  </div>
+</body>
+</html>
