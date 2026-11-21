@@ -51,7 +51,7 @@ Complete package (including binaries: founder portrait, ownership record, master
 
 ## Copyright and license
 
-Copyright © 2026 Joseph Mangar Lual (also known as Joseph Lual / OscaeGTX), for original material he owns or is authorized to license. See the root `LICENSE`; earlier release grants remain in effect. The license does not grant access to hosted services, models, or APIs.
+Copyright © 2026 Joseph Mangar Lual (also known as Joseph Lual / OscaeGTX), for original material he owns or is authorized to license. See the root `LICENSE`; earlier release grants remain in effect. The license does not grant access to hosted services, models, or APIs. See `SECURITY.md` for private vulnerability reporting.
 
 **Jurisdiction:** Western Australia / Commonwealth of Australia  
 **Deployed as one whole system:** 27 August 2026 AWST
