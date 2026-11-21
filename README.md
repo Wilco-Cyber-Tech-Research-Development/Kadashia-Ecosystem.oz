@@ -49,6 +49,9 @@ Complete package (including binaries: founder portrait, ownership record, master
 
 ---
 
+## Copyright and license
+
+Copyright © 2026 Joseph Lual, for original material he owns or is authorized to license. See the root `LICENSE`; earlier release grants remain in effect. The license does not grant access to hosted services, models, or APIs.
+
 **Jurisdiction:** Western Australia / Commonwealth of Australia  
-**Owner:** Joseph Lual · ABN 92 845 954 362  
 **Deployed as one whole system:** 27 August 2026 AWST
