@@ -1,15 +1,15 @@
-# COPYRIGHT NOTICE – ALL RIGHTS RESERVED
+# Copyright, operator, and license
 
-Copyright © 2026 Andoria Pacific Developers Lab / Ziam-Ziam Cyber Tech Perth WA  
-and the Primary Entity of Ownership together with its recognised Shareholders.
+Copyright © 2026 Joseph Mangar Lual (also known as Joseph Lual / OscaeGTX), for original material in this repository that he owns or is authorized to license.
 
-**ALL RIGHTS RESERVED.**
+## Current operator
 
-No part of the software, documentation, configurations, agentic workflows, or related materials in this repository may be reproduced, distributed, modified, publicly displayed, or used to create derivative works except as expressly permitted in writing by the Primary Entity of Ownership and all entitled principal entities whose signatures are required under the Policy on Identity, Ownership & Continuity of Legal Agreements.
+The project is operated by Joseph Mangar Lual as an individual/sole trader under ABN [92 845 954 362](https://abr.business.gov.au/ABN/View?id=92845954362). The ABR lists this ABN as active. The project portfolio business identity is Andoria Pacific Home Developers. This notice does not describe a separate company or claim not-for-profit registration.
 
-This repository and its contents are **not** released under any Creative Commons, Apache 2.0, MIT, GPL, or other open-source “2.0” or permissive license.  
-Any such license notice that may previously have existed is hereby superseded and withdrawn.
+## License scope
 
-Ownership title remains continuous only when the signatures of all entitled principal entities and their principals are present and in full agreement, in accordance with the Digital Sovereignty Constitution and the Policy on Identity, Ownership & Continuity of Legal Agreements.
+The root `LICENSE` sets the terms for versions that include it. This is a custom source-available license, not an OSI-approved open-source license. It does not grant access to hosted models, APIs, compute, or support.
 
-For authorised use, partnership, or licensing inquiries, contact the public addresses listed in the Identity Footer.
+This notice is limited to rights Joseph Mangar Lual can grant. Third-party code, dependencies, contributions by others, and their notices remain under their own licenses and ownership. Nothing here changes those rights.
+
+This license applies prospectively to versions that include it. Any valid license already granted for an earlier version, including a prior MIT or BSD grant, remains in effect.
