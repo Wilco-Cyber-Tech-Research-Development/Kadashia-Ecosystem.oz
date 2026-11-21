@@ -9,8 +9,8 @@
     "start": "echo \"Start placeholder\""
   },
   "keywords": ["kadashia", "ecosystem"],
-  "author": "Wilco-Cyber-Tech-Research-Development",
-  "license": "MIT",
+  "author": "Joseph Lual",
+  "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "node": ">=18"
   }
