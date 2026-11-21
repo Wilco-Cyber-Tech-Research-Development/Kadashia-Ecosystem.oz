@@ -1,7 +1,7 @@
 # KADASHIA AI — Sovereign Ecosystem
 
-**Owned by Joseph Lual · Perth, Western Australia**  
-ABN 92 845 954 362 · © 2024–2026
+**Owned and operated by Joseph Mangar Lual (Joseph Lual / OscaeGTX)**  
+Individual/sole trader · [ABN 92 845 954 362](https://abr.business.gov.au/ABN/View?id=92845954362) · Andoria Pacific Home Developers · © 2024–2026
 
 This is a **single, unified platform**. Every file, tool, guide and interface is one element of the same sovereign industrial intelligence system. **Nothing stands alone.**
 
@@ -51,7 +51,7 @@ Complete package (including binaries: founder portrait, ownership record, master
 
 ## Copyright and license
 
-Copyright © 2026 Joseph Lual, for original material he owns or is authorized to license. See the root `LICENSE`; earlier release grants remain in effect. The license does not grant access to hosted services, models, or APIs.
+Copyright © 2026 Joseph Mangar Lual (also known as Joseph Lual / OscaeGTX), for original material he owns or is authorized to license. See the root `LICENSE`; earlier release grants remain in effect. The license does not grant access to hosted services, models, or APIs.
 
 **Jurisdiction:** Western Australia / Commonwealth of Australia  
 **Deployed as one whole system:** 27 August 2026 AWST
